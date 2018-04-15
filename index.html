@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Max's Stream</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron" style="background-color: #00Bfff">
+      <h1>Max's Stream</h1>
+    </div>
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3 class="panel-title">"Stream"</h3>
+        </div>
+          <div class="panel-body">
+            Topic:<br>
+            <input type="text" name="searchTerm" size="60" id="search-term" >
+            <br><br>
+            Stories:<br>
+            <div class="form-group">
+              <select class="form-control" id="num-records">
+                <option>1</option>
+                <option>5</option>
+                <option>10</option>
+              </select> 
+            </div>
+            From (Year YYYY):<br>
+            <input type="text" name="startYear" size="60" id="start-year"><br>
+            To:<br>
+            <input type="text" name="endYear" size="60" id="end-year"><br><br>
+            <button id="submit">Search!</button>
+            <button id="clear">Clear Results!</button>
+          </div> 
+      </div>  
+    
+    <div class="panel panel-info" id="main-panel">
+      
+    </div>
+
+ 
+</div>
+<script type="text/javascript" src="assets/app.js"></script>
+</body>
+</html>
+
+
+
